@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="contactstyles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action = "send_email.php>" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+      <br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+      <br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+  <section id="image-links">
+      
+    
+    <a href="https://example.com" target="_blank"><img src="twitter-32.png" alt="Social Media Icon 1"></a>
+    <a href="https://www.linkedin.com/in/krishna-sameer-gundampati-1a44b8247" target="_blank"><img src="linkedin-3-32.png" alt="Social Media Icon 2"></a>
+    <a href="https://example.com" target="_blank"><img src="github-10-32.png" alt="Social Media Icon 3"></a>
+    <a href="discordapp.com/users/750040322985295963" target="_blank"><img src="discord-2-32.png" alt="Social Media Icon 4"></a>
+    <a href="gkrishnasameer7@gmail.com" target="_blank"><img src="message-outline-32.png" alt="Social Media Icon 4"></a>
+  
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

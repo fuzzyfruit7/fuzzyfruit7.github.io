@@ -1,0 +1,88 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #000000;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 1em;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 4em 0;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    font-size: 2em;
+    margin-bottom: 2em;
+    color: #00d4ff;
+    text-shadow: 2px 2px 4px rgba(0, 212, 255, 0.8);
+  }
+  
+  .project {
+    margin-bottom: 2em;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #85A9D2;
+  }
+  
+  .project p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #ffffff;
+  }
+  
+  .project a {
+    padding: 0.75em 1.5em;
+    background-color: #00d4ff;
+    color: #000000;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #0493b8;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000000;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+    color: #ffffff;
+  }
+  
